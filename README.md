@@ -19,11 +19,13 @@ P3, P4, P1, P2, P0
 ## How to run this program
 This c++ program takes in a file as input and uses this file to run the algorithm.
 
-Firstly to compile the program run
+### Firstly 
+to compile the program run
 ```bash
 g++ bankers.cpp -o bankers
 ```
-Secondly, you need to create a new text file for your input data. In our case we made a input.txt file.
+### Secondly, 
+you need to create a new text file for your input data. In our case we made a input.txt file.
 For this file, the data is read as numbers. The first number is the amount of processes, and the second number is the amount of resources:
 In our case: 5 3
 
@@ -59,7 +61,7 @@ Is the max allocation
 and finally, we have the current amount of available resources:
 3 2 2
 
-# Thirdly
+### Thirdly
 Once you have your file constructed you can now run the program
 ```bash
 ./bankers input.txt
